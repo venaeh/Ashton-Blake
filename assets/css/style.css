@@ -3,7 +3,7 @@
 :root {
   --bg-main: #0f1216;
   --bg-card: #141a20;
-  --accent: #4cc9f0;
+  --accent: #dff870;
   --text-main: #ffffff;
   --text-muted: #9aa4ad;
 }
@@ -50,11 +50,13 @@ body {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(
-    rgba(0,0,0,0.7),
-    rgba(0,0,0,0.9)
-  ),
-  url("hero-bg.jpg") center/cover no-repeat;
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.9)
+    ),
+    url("../images/hero-bg.png") center/cover no-repeat;
+
   display: flex;
   align-items: center;
   padding: 0 80px;
