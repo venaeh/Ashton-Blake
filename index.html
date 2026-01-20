@@ -1,24 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <href rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashton Blake | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Font Awesome (icon) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
 </head>
-
 <body>
-    <div>
-        <div class="container">
-            <h1><a href="#">Welcome to the NullPoint Page</a></h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-</body>
 
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h3>JM</h3>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Ashton <span>Blake</span></h1>
+      <p>Graphic Designer & Creative Director</p>
+
+      <div class="hero-buttons">
+        <a href="#resume" class="btn primary">Resume</a>
+        <a href="#portfolio" class="btn">Portfolio</a>
+      </div>
+
+      <div class="icons">
+        <i class="fab fa-behance"></i>
+        <i class="fab fa-dribbble"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div>
+      <h2>About Me</h2>
+      <p>
+        Illustrator specializing in UI/UX design, branding, and digital strategy. I create impactful
+        visuals that strengthen brand identity and user engagement.
+      </p>
+      <p style="margin-top:15px; color:#9aa4ad;">
+        Florida, Orlando<br>
+        <a href=""></a>
+      </p>
+    </div>
+
+    <div class="about-image"></div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="resume" id="resume">
+    <div class="resume-grid">
+
+      <!-- SKILLS -->
+      <div class="card">
+        <h3>Software Skills</h3>
+
+        <div class="skill">
+          <span>Photoshop</span>
+          <div class="progress"><div style="width:90%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>Illustrator</span>
+          <div class="progress"><div style="width:85%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>InDesign</span>
+          <div class="progress"><div style="width:80%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>After Effects</span>
+          <div class="progress"><div style="width:75%"></div></div>
+        </div>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="card">
+        <h3>Experience</h3>
+        <p><strong>White Fish Advertising Co.</strong><br>
+        Art Director</p>
+
+        <p style="margin-top:15px;"><strong>Pyramids Sun Advertising</strong><br>
+        Senior Graphic Designer</p>
+
+        <p style="margin-top:15px;"><strong>Planet Stationary & Printing</strong><br>
+        Graphic Designer</p>
+
+        <h3 style="margin-top:30px;">Education</h3>
+        <p>
+          BS/MS in Computer Science<br>
+          University of Maryland
+        </p>
+      </div>
+
+      <!-- SERVICES -->
+      <div class="card">
+        <h3>What Can I Do?</h3>
+        <p>Logo & Branding</p>
+        <p>UI / UX Design</p>
+        <p>Advertising Strategy</p>
+        <p>Packaging Design</p>
+
+        <h3 style="margin-top:30px;">Hobbies</h3>
+        <div class="icons">
+          <i class="fas fa-camera"></i>
+          <i class="fas fa-book"></i>
+          <i class="fas fa-pencil-alt"></i>
+          <i class="fas fa-plane"></i>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PORTFOLIO (placeholder) -->
+  <section class="resume" id="portfolio">
+    <h2 style="margin-bottom:30px;">Portfolio</h2>
+    <p style="color:#9aa4ad;">Coming soon...</p>
+  </section>
+
+</body>
 </html>
