@@ -221,6 +221,10 @@ body {
   border-radius: 12px;
 }
 
+.discord-text span {
+  color: var(--accent);
+}
+
 .discord-content2 {
   background: var(--bg-card);
   display: flex;
