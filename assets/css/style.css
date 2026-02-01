@@ -4,6 +4,7 @@
   --bg-main: #0f1216;
   --bg-card: #141a20;
   --accent: #dff870;
+  --discord-pallete: #7289da;
   --text-main: #ffffff;
   --text-muted: #9aa4ad;
 }
@@ -67,8 +68,12 @@ body {
   font-weight: 700;
 }
 
-.hero-content span {
-  color: var(--accent);
+.skill .nothing {
+  color: var(--text-main);
+}
+
+.experience .job {
+  color: var(--accent)
 }
 
 .hero-content p {
@@ -137,6 +142,10 @@ body {
   background: var(--bg-card);
   padding: 30px;
   border-radius: 10px;
+}
+
+.card span {
+  color: var(--accent);
 }
 
 .card h3 {
@@ -221,7 +230,11 @@ body {
   border-radius: 12px;
 }
 
-.discord-text span {
+.discord-text .dc-text {
+  color: var(--discord-pallete);
+}
+
+.discord-text .yellow-text {
   color: var(--accent);
 }
 
