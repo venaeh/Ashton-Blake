@@ -199,3 +199,43 @@ body {
     font-size: 42px;
   }
 }
+
+.discord {
+  margin-top: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  width: 100%;
+  height: 75vh;
+  gap: 50px;
+}
+
+.discord-text {
+  background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 50%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.discord-content2 {
+  background: var(--bg-card);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.discord-content2 iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+}
+
