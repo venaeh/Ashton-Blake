@@ -117,6 +117,10 @@ body {
   gap: 60px;
 }
 
+.about .about-name {
+  color: var(--discord-pallete);
+}
+
 .about h2 {
   font-size: 36px;
   margin-bottom: 20px;
