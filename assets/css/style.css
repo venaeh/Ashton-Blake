@@ -25,9 +25,10 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
   align-items: center;
-  padding: 30px 80px;
-  position: absolute;
+  padding: 30px 30px;
+  position: fixed;
   width: 100%;
   z-index: 10;
 }
@@ -40,7 +41,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: var(--text-muted);
+  color: var(--text-main);
   font-size: 22px;
   transition: 0.3s;
 }
@@ -49,6 +50,7 @@ body {
   color: var(--accent);
 }
 
+
 .hero {
   min-height: 100vh;
   background:
@@ -56,12 +58,12 @@ body {
       rgba(0,0,0,0.7),
       rgba(0,0,0,0.9)
     ),
-    url("../images/hero-bg.png") center/cover no-repeat;
-
+    url("../images/hero-3.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 0 80px;
 }
+
 
 .hero-content h1 {
   font-size: 56px;
