@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.8);
   align-items: center;
-  padding: 20px 30px;
+  padding: 5px 30px;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -35,7 +35,7 @@ body {
 
 .navbar ul {
   display: flex;
-  gap: 30px;
+  gap: 5px;
   list-style: none;
 }
 
@@ -50,8 +50,25 @@ body {
   color: var(--accent);
 }
 
+.navbar-img {
+  margin-left: -50px;
+  padding: 10px 30px;
+  display: flex;
+  gap: 13px;
+}
+
+.navbar-img img {
+  gap: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 .menu-btn {
-  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
   background: none;
   border: none;
   color: var(--text-main)
