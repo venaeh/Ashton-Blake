@@ -170,18 +170,19 @@ body {
 }
 
 .sidebar-menu ul{
-  overflow-y: auto;
   list-style: none;
   display: block;
 }
 
+
 .sidebar-menu a {
   font-size: 17px;
   text-decoration: none ;
-  display: block;
-  padding: 15px 40px;
+  display: flex;
+  padding: 15px 25px;
   color: var(--text-main)
 }
+
 
 .sidebar-menu a:hover {
   color: var(--accent);
